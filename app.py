@@ -24,7 +24,7 @@ HEX = {k: "#%02x%02x%02x" % tuple(v) for k, v in COLORS.items()}
 
 @st.cache_data
 def load():
-    return pd.read_csv("data/cafes_brand.csv")
+    return pd.read_csv("cafes_brand.csv")
 
 
 def nearest_dist(a, b, same):
