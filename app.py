@@ -38,8 +38,8 @@ def nearest_dist(a, b, same):
 df = load()
 brands = list(COLORS)
 
-st.title("☕ 서울 커피 프랜차이즈 입지 전쟁")
-st.caption("누가 누구 옆에 붙는가? 브랜드 간 최근접 거리로 입지 전략을 비교합니다.")
+st.title("☕ 서울 커피 프랜차이즈 입지 전략")
+st.caption("누가 누구 옆에 붙는가? 브랜드 간 최근접 거리로 입지 전략을 비교")
 
 # ---------- 입력 위젯 ----------
 with st.sidebar:
